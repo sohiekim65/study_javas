@@ -4,7 +4,7 @@
 // 세 수 A, B, C가 주어졌을 때, 위의 네 가지 값을 구하는 프로그램을 작성하시오.
 // refer : https://www.acmicpc.net/problem/10430
 import java.util.Scanner;
-public class Practice {
+public class RemainderAB {
     public static void main(String[] args){
     	// 입력
     	// 첫째 줄에 A, B, C가 순서대로 주어진다. (2 ≤ A, B, C ≤ 10000)
