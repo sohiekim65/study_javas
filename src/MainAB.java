@@ -20,7 +20,7 @@ import java.util.Scanner;
 */
 public class MainAB {
     // 두 정수 합 구함.
-    public static int plus(int input_first, int input_second){
+    public int plus(int input_first, int input_second){
         int output_plus = input_first + input_second;
         return output_plus;
     }
@@ -43,7 +43,10 @@ public class MainAB {
         for(int i = 1; i <= count; i++){
             input_first = scanner.nextInt();
             input_second = scanner.nextInt();
-            int output_plus = plus(input_first, input_second);
+
+            // 처리
+            MainAB mainAB = new MainAB();
+            int output_plus = mainAB.plus(input_first, input_second);
             System.out.println(output_plus);
         }
         scanner.close();
