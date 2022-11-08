@@ -8,3 +8,5 @@
 |입출력과 사칙연산| 나눗셈 |[java](https://www.acmicpc.net/source/50568085)|[java](https://www.acmicpc.net/source/51471754)| 두 정수 나눗셈. |
 |입출력과 사칙연산| 사칙연산 |[java](https://www.acmicpc.net/source/50777033)|[java](https://www.acmicpc.net/source/51472884)| 두 정수 사칙연산 결과와 나머지 구함. |
 |입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/50637013)|[java](https://www.acmicpc.net/source/51476319)| 입력받은 아이디 뒤에 ??! 출력 |
+|입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/50777233)|[java](https://www.acmicpc.net/source/51477148)| 불기 연도를 서기연도로 출력 |
+|입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/51478615)|[java](https://www.acmicpc.net/source/51479432)| 체스 말의 수 구하기 |
