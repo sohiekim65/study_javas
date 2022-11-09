@@ -12,3 +12,5 @@
 |입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/51478615)|[java](https://www.acmicpc.net/source/51479432)| 체스 말의 수 구하기 |
 |입출력과 사칙연산| 사칙연산 |[java](https://www.acmicpc.net/source/50778179)|[java](https://www.acmicpc.net/source/51493571)| 네 가지 값 구하기 |
 |입출력과 사칙연산| 사칙연산 |[java](https://www.acmicpc.net/source/51496365)|[java](https://www.acmicpc.net/source/51496612)| 곱셈 단계별 결과값 구하기 |
+|조건문| 조건문 |[java](https://www.acmicpc.net/source/51516139)|[java](https://www.acmicpc.net/source/51519351)| 두 정수 값 비교하여 알맞은 기호 출력하기 |
+|조건문| 조건문 |[java](https://www.acmicpc.net/source/51516139)|[java](https://www.acmicpc.net/source/51520218)| 시험 점수 입력받아 등급 출력 |
