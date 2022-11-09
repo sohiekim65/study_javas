@@ -11,3 +11,4 @@
 |입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/50777233)|[java](https://www.acmicpc.net/source/51477148)| 불기 연도를 서기연도로 출력 |
 |입출력과 사칙연산| 입출력 |[java](https://www.acmicpc.net/source/51478615)|[java](https://www.acmicpc.net/source/51479432)| 체스 말의 수 구하기 |
 |입출력과 사칙연산| 사칙연산 |[java](https://www.acmicpc.net/source/50778179)|[java](https://www.acmicpc.net/source/51493571)| 네 가지 값 구하기 |
+|입출력과 사칙연산| 사칙연산 |[java](https://www.acmicpc.net/source/51496365)|[java](https://www.acmicpc.net/source/51496612)| 곱셈 단계별 결과값 구하기 |

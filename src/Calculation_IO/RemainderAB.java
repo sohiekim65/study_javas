@@ -1,3 +1,4 @@
+package Calculation_IO;
 import java.util.Scanner;
 // 1. 문제 파악
 //    (A+B)%C는 ((A%C) + (B%C))%C 와 같은가

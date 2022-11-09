@@ -1,3 +1,4 @@
+package Calculation_IO;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 두 자연수 A와 B가 주어진다. (1 ≤ A, B ≤ 10,000). 

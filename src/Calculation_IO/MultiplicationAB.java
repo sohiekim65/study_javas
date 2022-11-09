@@ -1,3 +1,4 @@
+package Calculation_IO;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 두 정수 A와 B를 입력받은 다음, AxB 출력
