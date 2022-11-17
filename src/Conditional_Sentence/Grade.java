@@ -15,20 +15,20 @@ import java.util.Scanner;
 //     출력 - output
 
 public class Grade {
-    public String grade_A() {
-        return "A";
-    }
-    public String grade_B() {
-        return "B";
-    }
-    public String grade_C() {
-        return "C";
-    }
-    public String grade_D() {
-        return "D";
-    }
-    public String grade_F() {
-        return "F";
+    public String grade(int input) {
+        String result;
+        if(input >= 90) {
+            result = "A";
+        } else if( 80 <= input && input < 90) {
+            result = "B";
+        } else if( 70 <= input && input < 80) {
+            result = "C";
+        } else if( 60 <= input && input < 70) {
+            result = "D";
+        } else {
+            result = "F";
+        }
+        return result;
     }
     public static void main(String[] args) {
         // 4. 테스트 케이스
@@ -43,23 +43,9 @@ public class Grade {
 
         // 처리 
         Grade main = new Grade();
-        String gradeA = main.grade_A();
-        String gradeB = main.grade_B();
-        String gradeC = main.grade_C();
-        String gradeD = main.grade_D();
-        String gradeF = main.grade_F();
+        String output = main.grade(input);
 
         // 출력
-        if(input >= 90) {
-            System.out.println(gradeA);
-        } else if( 80 <= input && input < 90) {
-            System.out.println(gradeB);
-        } else if( 70 <= input && input < 80) {
-            System.out.println(gradeC);
-        } else if( 60 <= input && input < 70) {
-            System.out.println(gradeD);
-        } else {
-            System.out.println(gradeF);
-        }
+        System.out.println(output);
     }
 }

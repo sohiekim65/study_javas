@@ -16,18 +16,18 @@ import java.util.Scanner;
 //     출력 - output
 
 public class Compare {
-    public String left() {
-        String left = ">";
-        return left;
+    public String compare(int input_A, int input_B) {
+        String result;
+        if(input_A > input_B){
+            result = ">";
+        } else if(input_A < input_B) {
+            result = "<";
+        } else {
+            result = "==";
+        }
+        return result;
     }
-    public String right() {
-        String right = "<";
-        return right;
-    }
-    public String same() {
-        String same = "==";
-        return same;
-    }
+        
     public static void main(String[] args) {
         // 4. 테스트 케이스
         //     1  2 --> <
@@ -43,17 +43,9 @@ public class Compare {
 
         // 처리
         Compare main = new Compare();
-        String left = main.left();
-        String right = main.right();
-        String same = main.same();
+        String output = main.compare(input_A, input_B);
         
         // 출력
-        if(input_A > input_B){
-            System.out.println(left);
-        } else if(input_A < input_B) {
-            System.out.println(right);
-        } else {
-            System.out.println(same);
-        }
+        System.out.println(output);
     }
 }
