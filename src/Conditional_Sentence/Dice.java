@@ -16,6 +16,23 @@ import java.util.Scanner;
 //    출력 - output
 
 public class Dice {
+    public int result(int A, int B, int C, int max) {
+        int result = 0;
+        if((A!=B) && (B!=C) && (C!=A)){
+            result = max*100;
+        } else if((A==B) && (B==C)){
+            result = 10000+(A*1000);
+        } else {
+            if(A==B){
+                result = 1000+(A*100);
+            }else if(B==C){
+                result = 1000+(B*100);
+            }else {
+                result = 1000+(C*100);
+            }
+        }
+        return result;
+    }
     public static void main(String[] args) {
         // 4. 테스트     케이스
         //     3 3 6 --> 1300
@@ -31,19 +48,11 @@ public class Dice {
         int max = Math.max(C, (Math.max(A, B)));
         scanner.close();
 
-        // 처리 및 출력
-        if((A!=B) && (B!=C) && (C!=A)){
-            System.out.println(max*100);
-        } else if((A==B) && (B==C)){
-            System.out.println(10000+(A*1000));
-        } else {
-            if(A==B){
-                System.out.println(1000+(A*100));
-            }else if(B==C){
-                System.out.println(1000+(B*100));
-            }else {
-                System.out.println(1000+(C*100));
-            }
-        }
+        // 처리 
+        Dice main = new Dice();
+        int output = main.result(A, B, C, max);
+
+        // 및 출력
+        System.out.println(output);
     }
 }

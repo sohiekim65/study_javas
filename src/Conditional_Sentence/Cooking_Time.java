@@ -6,6 +6,8 @@ import java.util.Scanner;
 //    현재 시각 (0 ≤ A ≤ 23), 분(0 ≤ B ≤ 59),
 //    요리하는데 필요한 시간 (0 ≤ C ≤ 1,000)
 
+import javax.naming.spi.DirStateFactory.Result;
+
 // 2. 유추 파악
 //    현재 시간의 시 (A)와 분(B), 요리하는 시간(C)를 입력받아 요리가 끝나는 시간을 출력
 
@@ -16,6 +18,26 @@ import java.util.Scanner;
 //    출력 - output
 
 public class Cooking_Time {
+    public int hour(int A, int B, int C, int BC) {
+        if((BC) >= 60){
+            A = (A + ((BC)/60));
+            if(A >= 24) {
+                A = (A - 24);
+            }
+        }
+        return A;
+    }
+
+    public int minute(int A, int B, int C, int BC) {
+        if((B+C) >= 60){
+            if(A >= 24) {
+                B = ((BC)%60);
+            } else {
+                B = ((BC)%60);
+            }
+        }
+        return B;
+    }
    
     public static void main(String[] args) {
         // 4. 테스트 케이스
@@ -32,19 +54,16 @@ public class Cooking_Time {
         int BC = B + C;
         scanner.close();
 
-        //     처리 및 출력
+        //  처리 
+        Cooking_Time main = new Cooking_Time();
+        int output_hour = main.hour(A, B, C, BC);
+        int output_minute = main.minute(A, B, C, BC);
+
+        // 출력
         if((B+C) >= 60){
-            A = (A + ((B+C)/60));
-            if(A >= 24) {
-                A = (A - 24);
-                B = ((B+C)%60);
-                System.out.println(A + " " + B);
-            } else {
-                B = ((B+C)%60);
-                System.out.println(A + " " + B);
-            }
+            System.out.println(output_hour + " " + output_minute);
         }else {
-            System.out.println(A + " " + (B+C));
+            System.out.println(output_hour + " " + (output_minute+C));
         }
     }
 }
