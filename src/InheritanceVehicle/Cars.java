@@ -8,7 +8,7 @@ public class Cars extends Vehicle{
     }
 
     public int speed(int kms, int hours){
-        int result = (kms/hours) + this._oneway_count;
+        int result = (kms/hours) + _oneway_count;
         return result;
     }
 }
