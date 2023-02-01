@@ -1,4 +1,4 @@
-package level4;
+package baekjoon.level4;
 import java.util.Scanner;
 // 백준 2562
 // 1. 문제 파악
@@ -13,8 +13,23 @@ import java.util.Scanner;
 //  출력 - output
 
 public class Max {
-    public int max(int input[]) {
-        
+    public int max(int input[], int max, int index) {
+        for(int i = 0; i < input.length; i++){
+             if(max < input[i]){
+                max = input[i];
+            }
+        }
+        return max;
+    }
+
+    public int index(int input[], int max, int index) {
+        for(int i = 0; i < input.length; i++){
+             if(max < input[i]){
+                index = i+1;
+                max = input[i];
+            }
+        }
+        return index;
     }
     public static void main(String[] args) {
         // 4. 테스트 케이스
@@ -36,15 +51,14 @@ public class Max {
         }
         int max = 0;
         int index = 0;
-        for(int i = 0; i < input.length; i++){
-             if(max < input[i]){
-                index = i+1;
-                max = input[i];
-            }
-        }
+
+        // 처리
+        Max main = new Max();
+        int output_index = main.index(input, max, index);
+        int output_max = main.max(input, max, index);
 
         // 출력
-        System.out.println(max + "\n" + index);
+        System.out.println(output_max + "\n" + output_index);
         scanner.close();
     }
 }

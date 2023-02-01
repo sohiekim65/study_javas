@@ -4,7 +4,6 @@ public class Cars extends Vehicle{
 
     Cars(int oneway_count){
         this._oneway_count = oneway_count;
-        System.out.println("");
     }
 
     public int speed(int kms, int hours){

@@ -1,4 +1,4 @@
-package level4;
+package baekjoon.level4;
 import java.util.Scanner;
 // 백준 3052
 // 1. 문제 파악
@@ -43,7 +43,6 @@ public class Remainder {
         // 8
         // 9
         // 10
-        // 61
 
         // 42  -->  1
         // 84
