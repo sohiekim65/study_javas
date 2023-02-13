@@ -1,9 +1,16 @@
 package beans;
 
 public class MemberBean {
-    String firstName;
-    String secondName;
-    String handleName;
+    private String firstName;
+    private String secondName;
+    private String handleName;
+
+    // 생성자
+    public MemberBean(String firstName, String secondName, String handleName) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.handleName = handleName;
+    }
 
     // getter
     public String getFirstName(){
