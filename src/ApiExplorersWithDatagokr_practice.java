@@ -18,12 +18,12 @@ public class ApiExplorersWithDatagokr_practice{
         &type=xml
         */
 
-        StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1741000/TsunamiShelter3/getTsunamiShelter1List"); /*URL*/
+        StringBuilder urlBuilder = new StringBuilder("http://apis.data.go.kr/1741000/TsunamiShelter3/getTsunamiShelter1List");
         // 2. 오픈 API의요청 규격에 맞는 파라미터 생성, 발급받은 인증키.
-        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=").append("VTQH%2Bv0XkmSXraJh1zk2F8xVHU81g8DkQvxRxmGxY5MyKzuq0VHKbgng3ix%2FT8zBNC%2Fw1E%2BRxGhicOkUaezf7A%3D%3D"); /*Service Key*/
-        urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); /*페이지 번호*/
-        urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8")); /*한 페이지 결과 수*/
-        urlBuilder.append("&" + URLEncoder.encode("type","UTF-8") + "=" + URLEncoder.encode("xml", "UTF-8")); /*XML 또는 JSON*/
+        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=").append("VTQH%2Bv0XkmSXraJh1zk2F8xVHU81g8DkQvxRxmGxY5MyKzuq0VHKbgng3ix%2FT8zBNC%2Fw1E%2BRxGhicOkUaezf7A%3D%3D");
+        urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8"));
+        urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8"));
+        urlBuilder.append("&" + URLEncoder.encode("type","UTF-8") + "=" + URLEncoder.encode("xml", "UTF-8"));
 
         URL url;
         HttpURLConnection conn = null;
