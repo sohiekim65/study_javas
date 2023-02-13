@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 // 2. 유추 파악
 // 입력받을 문자열 개수 T를 입력받고 문자열의 문자가 반복될 카운트인 R과 
-// 그 해당 문자열 P를 T 만큼 입력받아 출력(T가 2이면 P도 2개)
+// 그 해당 문자열 S를 T 만큼 입력받아 출력(T가 2이면 S도 2개)
 
 // 3. 주요 단어 영문 이름 선정
 //  입력 - input
@@ -26,7 +26,16 @@ public class StringRepeat {
         int T = scanner.nextInt();
 
         for(int i = 0; i < T; i++) {
-            
+            int R = scanner.nextInt();
+            String S = scanner.next();
+
+            for(int j = 0; j < S.length(); j++) {
+                for(int k = 0; k < R; k++) {
+                    System.out.print(S.charAt(j));
+                }
+            }
         }
+        System.out.println();
+        scanner.close();
     }
 }
