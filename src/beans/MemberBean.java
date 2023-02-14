@@ -12,6 +12,9 @@ public class MemberBean {
         this.handleName = handleName;
     }
 
+    public MemberBean() {
+    }
+
     // getter
     public String getFirstName(){
         return this.firstName;
