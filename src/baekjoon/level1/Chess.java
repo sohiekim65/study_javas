@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 흰색 피스가 개수가 주어졌을 때 올바른 세트가 되도록 출력

@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제 파악
 //    점의 좌표를 입력받아 그 점이 어느 사분면에 속하는지 알아내는 프로그램을 작성

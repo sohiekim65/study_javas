@@ -1,4 +1,4 @@
-package level3;
+package baekjoon.level3;
 import java.util.Scanner;
 // 1. 문제 파악
 //  구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하는지 검사

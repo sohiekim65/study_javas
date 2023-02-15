@@ -1,4 +1,4 @@
-package level3;
+package baekjoon.level3;
 import java.util.Scanner;
 // 1. 문제 파악
 // 알파벳 대소문자로 된 단어가 주어지면, 이 단어에서 

@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 두 정수 A와 B를 입력받은 다음, A/B 출력

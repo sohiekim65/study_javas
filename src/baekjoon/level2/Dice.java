@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제 파악
 // 주사위로 같은 눈이 3개가 나오면 10,000원+(같은 눈)×1,000원의 상금을 받게 된다. 

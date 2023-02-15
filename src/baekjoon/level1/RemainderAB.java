@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 // 1. 문제 파악
 //    (A+B)%C는 ((A%C) + (B%C))%C 와 같은가

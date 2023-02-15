@@ -1,4 +1,4 @@
-package level3;
+package baekjoon.level3;
 import java.util.Scanner;
 // 백준 10952
 // 1. 문제 파악

@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 시험 점수를 입력받아 90 ~ 100점은 A, 80 ~ 89점은 B, 

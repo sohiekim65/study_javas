@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제
 //  : 연도가 주어졌을 때, 윤년이면 1, 아니면 0을 출력하는 프로그램을 작성

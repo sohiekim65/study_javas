@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 // 1. 문제 파악
 //  :  준하가 가입하려고 하는 사이트에 이미 존재하는 아이디가 주어졌을 때, 

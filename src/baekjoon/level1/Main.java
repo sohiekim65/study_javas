@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 
 // baekjoon_8393_analysis.txt

@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 // 1. 문제 파악
 //  : 예제와 같이 새싹 모양을 출력
 

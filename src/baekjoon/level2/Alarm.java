@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제 파악
 //    원래 설정되어 있는 알람을 45분 앞서는 시간으로 바꾸는 것.

@@ -1,4 +1,4 @@
-package level2;
+package baekjoon.level2;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : 두 정수 A와 B가 주어졌을 때, A와 B를 비교하는 프로그램을 작성

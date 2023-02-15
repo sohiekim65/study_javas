@@ -1,4 +1,4 @@
-package level1;
+package baekjoon.level1;
 import java.util.Scanner;
 // 1. 문제 파악
 //  : (1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 

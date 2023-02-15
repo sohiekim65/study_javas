@@ -1,4 +1,4 @@
-package level3;
+package baekjoon.level3;
 import java.util.Scanner;
 // 1. 문제 파악
 //    N을 입력받은 뒤, 구구단 N단을 출력하는 프로그램을 작성
