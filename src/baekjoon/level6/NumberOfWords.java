@@ -39,8 +39,6 @@ public class NumberOfWords {
         String input = scanner.nextLine();
         scanner.close();
 
-        String[] word = input.split(" ");   // 공백으로 나누니 배열로 받기
-
         // 처리
         NumberOfWords main = new NumberOfWords();
         int output = main.count(input);
