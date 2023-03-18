@@ -2,7 +2,7 @@ package codingTest;
 
 import java.util.Scanner;
 
-public class returnNum {
+public class ReturnNum {
     // 확인용
     // public static void main(String[] args) {
     //     Scanner scanner = new Scanner(System.in);
