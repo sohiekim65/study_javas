@@ -27,7 +27,7 @@ public class Sugar {
         int count = 0;
 
         while(true){
-        // 무한 루프를 돌며 계산
+        // 무한 루프를 돌며 계산, 최소 봉지 수를 구한 뒤 빠져나오기
             if(input % 5 == 0){
                 // 5의 배수일 경우
                 System.out.println(input/5 + count);
