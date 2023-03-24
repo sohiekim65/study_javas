@@ -1,10 +1,9 @@
 package baekjoon.level6;
+import java.util.Scanner;
 // 백준 2444
 // 1. 문제 파악
 // 단어가 주어졌을 때, 몇 개의 크로아티아 알파벳으로 이루어져 있는지 출력
 // 목록에 있는 알파벳들은 하나의 알파벳으로 쓰이고, 없는 알파벳은 한 글자씩 센다.
-
-import java.util.Scanner;
 
 // 2. 유추 파악
 // 입력받은 문자열에서 몇 개의 알파벳으로 이루어져 있는지 출력
@@ -29,10 +28,13 @@ public class CroatiaAlphabet {
         scanner.close();
 
         for(int i = 0; i < str.length; i++){
+            // 입력받은 문자열에 배열의 요소가 포함되어 있으면
             if(input.contains(str[i])){
+                // 입력받은 문자열에서 그 배열의 요소를 A로 대체
                 input = input.replace(str[i], "A");
             }
         }
+        // 그렇게 대체한 뒤의 길이 출력
         System.out.println(input.length());
     }
 }
